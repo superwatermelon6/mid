@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 版权所有 (C) 2010 Android 开源项目
+
+     根据 Apache 许可证 2.0 版（以下简称“许可证”）许可；
+     除非遵守许可证，否则不得使用此文件。
+     您可以通过以下链接获取许可证副本：
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     除非适用法律要求或书面同意，否则根据许可证分发的软件
+     按“原样”分发，不附带任何明示或暗示的保证或条件。
+     有关权限和限制的具体语言，请参见许可证。
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:id="@android:id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center_vertical"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textColor="?android:attr/textColorSecondary" />
+</LinearLayout>
+ <!--android:textAppearance="?android:attr/textAppearanceLarge"  设置文本外观为系统推荐的大号文本样式-->
+<!--android:singleLine="true" 单行显示-->

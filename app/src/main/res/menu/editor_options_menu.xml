@@ -1,0 +1,23 @@
+<!-- res/menu/editor_options_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_save"
+        android:icon="@drawable/ic_menu_save"
+        android:alphabeticShortcut='s'
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_save" />
+    <item android:id="@+id/menu_revert"
+        android:icon="@drawable/ic_menu_revert"
+        android:title="@string/menu_revert" />
+    <item android:id="@+id/menu_delete"
+        android:icon="@drawable/ic_menu_delete"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_delete" />
+    <item android:id="@+id/menu_export"
+        android:icon="@android:drawable/edit_text"
+        android:title="@string/menu_export" />
+    <item android:id="@+id/menu_change_background"
+        android:icon="@drawable/ic_menu_change_background"
+        android:title="@string/menu_change_background" />
+</menu>

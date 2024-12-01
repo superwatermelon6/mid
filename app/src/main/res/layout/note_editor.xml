@@ -1,0 +1,15 @@
+<!-- res/layout/note_editor.xml -->
+<view xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/note"
+    class="com.example.android.notepad.NoteEditor$LinedEditText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Shallow_yellow"
+    android:capitalize="sentences"
+    android:fadingEdge="vertical"
+    android:gravity="top"
+    android:padding="16dp"
+    android:scrollbars="vertical"
+    android:textSize="18sp" />
+
+
